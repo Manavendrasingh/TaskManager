@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar{
+    width: 100vw;
+    height: 10vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:skyblue;
+}
+
+.colorBar{
+    width: 30vw;
+    height: 8vh;
+    margin-right: 10px;
+    border:2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+}
+.red{
+    width: 70px;
+    height: 35px;
+    border: 2px solid red;
+    background-color: red;
+}
+.yellow{
+    width: 70px;
+    height: 35px;
+    border: 2px solid yellow;
+    background-color:yellow;
+}
+.green{
+    width: 70px;
+    height: 35px;
+    border: 2px solid green;
+    background-color:green;
+}
+
+.blue{
+    width: 70px;
+    height: 35px;
+    border: 2px solid blue;
+    background-color:blue;
+}
+
+.blue:hover,.green:hover,.red:hover,.yellow:hover{
+    border: 5px solid black;
+
+}
+.manage{
+    width: 160px;
+    height: 60px;
+    border:2px solid black;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+#add{
+    width: 50px;
+    height: 50px;
+}
+
+#delete{
+    width: 50px;
+    height: 50px;
+}
+
+#add{
+    width: 50px;
+    height: 50px;
+}
+#view{
+    width: 50px;
+    height: 50px;
+}
+
+
+.home{
+    width: 100vw;
+    height: 90vh;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content{
+    position: relative;
+    z-index: 1;
+    height:250px;
+    width:200px;
+    margin: 5px;
+    border: 2px solid black;
+    
+}
+
+.ticketTextColorRed{
+    position: absolute;
+    z-index: 3;
+    border-top: 20px solid red;
+    width: 196px;
+    height: 245px;
+    font:bold
+    /* border: none; */
+}
+
+.ticketTextColorYellow{
+    position: absolute;
+    z-index: 3;
+    border-top: 20px solid yellow;
+    width: 196px;
+    height: 245px;
+    font:bold
+    /* border: none; */
+}
+
+.ticketTextColorGreen{
+    position: absolute;
+    z-index: 3;
+    border-top: 20px solid Green;
+    width: 196px;
+    height: 245px;
+    font:bold
+    /* border: none; */
+}
+
+.ticketTextColorBlue{
+    position: absolute;
+    z-index: 3;
+    border-top: 20px solid Blue;
+    width: 196px;
+    height: 245px;
+    font:bold
+    /* border: none; */
+}
+
+
+.lock{
+    /* border: 2px solid black; */
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 4;
+    left:165px;
+    bottom: 3px;
+}
+
+#overlay {
+    background: transparent; /* Make the overlay invisible */
+    cursor: pointer; /* Show a pointer cursor to indicate it's clickable */
+    position:absolute;
+    z-index: 2;
+    width: 196px;
+    height: 245px;
+    top:0px;
+    
+  }
+
+
+
+.popupfooter{
+    width:300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+  
+
+}
+
+.popup{
+    position:absolute;
+    z-index: 2;
+    width:310px;
+    height:310px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
+}
+
+.text{
+    width:300px;
+    height:280px;
+    background-color: aquamarine;
+    border-bottom: 5px solid black;
+    
+}
+
